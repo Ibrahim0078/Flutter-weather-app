@@ -1,16 +1,26 @@
-# weather_app
+# WeatherApp
+WeatherApp is a Flutter application that allows users to search for the current weather and get a 7-day forecast for any city.
 
-A new Flutter project.
-
+## Features
+- **City Search:** Find weather details by searching for any city.
+- **7-Day Forecast:** View weather predictions for the next week.
+- **Cross-Platform:** Works on Android and iOS.
 ## Getting Started
+Clone the repo:
 
-This project is a starting point for a Flutter application.
+bash
 
-A few resources to get you started if this is your first Flutter project:
+Copy code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git clone https://github.com/Ibrahim0078/Flutter-weather-app.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+cd Flutter-weather-app
+
+flutter pub get
+
+flutter run
+
+Add your API key for the weather service in the code.
+
+## Built With
+- **Flutter & Dart**
